@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    /**
+        Assignment: Using Box Theory and clockwise notation, 
+        Change padding and margin to the example code. 
+        For the Padding (for box-red and box-blue) make the top and bottom 20px, and the right and left 40px.
+        For the Margin (for box-red and box-blue) make the top and left 40px, and the right and bottom 20px.
+    **/
+  .injected-text {
+    margin-bottom: -25px;
+    text-align: center;
+  }
+
+  .box {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+  }
+
+  .yellow-box {
+    background-color: yellow;
+    padding: 20px 40px 20px 40px;
+  }
+
+  .red-box {
+    background-color: crimson;
+    color: #fff;
+    padding: 10px 20px 30px 40px;
+    margin: 15px 40px 5px 20px;
+  }
+
+  .blue-box {
+    background-color: blue;
+    color: #fff;
+    padding: 5px 13px 50px 32px;
+    margin: 42px 42px 42px 42px;
+    }
+    </style>
+</head>
+<body>
+    <h3 class="text"></h3>
+    <div class="box yellow-box">
+        <h3 class="box red-box">padding</h3>
+        <h3 class="box blue-box">padding</h3>
+    </div>
+</body>
+</html>
